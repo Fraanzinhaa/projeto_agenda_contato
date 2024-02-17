@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  padding-top: 100px;
+  background-color: rgb(248, 236, 236);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header img {
+  height: 70px;
+  margin-right: 18px;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+.container {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  max-width: 640px;
+  width: 100%;
+  margin-bottom: 40px;
+  justify-content: space-between;
+}
+
+input:valid {
+  background-color: rgb(182, 131, 171);
+}
+
+input:invalid {
+  background-color: rgb(250, 246, 249);
+}
+
+form input {
+  font-size: 18px;
+  background-color: rgb(236, 212, 231);
+  border: none;
+  border-bottom: 1px solid rgb(226, 189, 219);
+  border-top: 1px solid rgb(226, 189, 219);
+  border-left: 1px solid rgb(226, 189, 219);
+  border-right: 1px solid rgb(226, 189, 219);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+form button {
+  background-color: rgb(110, 4, 87);
+  border-bottom: 1px solid rgb(59, 2, 49);
+  border-top: 1px solid rgb(59, 2, 49);
+  border-left: 1px solid rgb(59, 2, 49);
+  border-right: 1px solid rgb(59, 2, 49);
+  color: rgb(250, 246, 249);
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  padding-top: 30px;
+}
+
+table td {
+  padding: 14px 0;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(59, 2, 49);
+}
+
+table th {
+  border-bottom: 3px solid rgb(59, 2, 49);
+  padding: 16px;
+  font-size: 24px;
+}
